@@ -92,3 +92,64 @@ img {
 
 
 }
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.row-of-blue-divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    align-items: center;
+    margin: 100px;
+}
+
+.box-blue {
+    border: 3px solid #3882f6;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p-second {
+    font-size: 18px;
+}
+
+.section3 {
+    background-color: #e5e7eb;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+    text-align: center;
+}
+
+p-third {
+    font-size: 18px;
+    text-align: end;
+}
+
+#p-div {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 300px;
+}
